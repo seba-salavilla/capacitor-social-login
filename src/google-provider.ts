@@ -380,9 +380,6 @@ export class GoogleSocialLogin extends BaseSocialLogin {
               },
             });
           }
-        } else {
-          reject(new Error('Login failed'));
-        }
       };
 
       window.addEventListener('message', handleMessage);
